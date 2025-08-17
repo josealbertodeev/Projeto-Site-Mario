@@ -10,6 +10,8 @@
 
 <body>
 
+    <div class="mascara-formulario" onclick="esconderFormulario()"></div>
+
     <header>
         <img class="logo" src="src/img/icon.png" alt="icone mario">
         <a>Home</a>
@@ -29,7 +31,7 @@
                 vocês
                 os encanadores mais famosos do Reino dos Cogumelos, Mario e Luigi!.</p>
 
-            <button>Entre em Contato</button>
+            <button onclick="mostrarFormulario()">Entre em Contato</button>
         </div>
 
         <div>
@@ -43,10 +45,26 @@
     </div>
 
     <a class="whatsapp"
-        href="https://wa.me/5511950354575?text=Ol%C3%A1%2C%20quero%20ajuda%20dos%20irm%C3%A3os%20Mario!%20">
+        href="https://wa.me/5511950354577?text=Ol%C3%A1%2C%20quero%20ajuda%20dos%20irm%C3%A3os%20Mario!%20"
+        target="_blank">
         <img src="src/img/icone-whatsapp.png" alt="imagem whatsapp">
     </a>
 
+    <form 
+    class="formulario" 
+    action="https://formcarry.com/s/YQCx7xlNaoH"    
+    method="POST" 
+    enctype="multipart/form-data">
+
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+
+    </form>
+
 </body>
+
+<script src="src/js/index.js"></script>
 
 </html>
