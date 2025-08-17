@@ -1,0 +1,35 @@
+@media(max-width: 900px) {
+    .caixa p {
+        display: none;
+    }
+
+    .caixa{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .caixa-principal{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .mario-luigi{
+        width: 80vw;
+        height: auto;
+        /* margin-bottom: 60px; */
+    }
+
+    .logo{
+        display: none;
+    }
+
+    header{
+        margin: 10px;
+    }
+
+    .whatsapp img{
+        height: 50px;
+        margin-bottom: 10px;
+    }
+}

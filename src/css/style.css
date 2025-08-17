@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF0000;
+    background-color: #9a0c0c;
 }
 
 button:active {
@@ -86,8 +86,8 @@ video {
 }
 
 .whatsapp img:hover {
-    transform: translateY(-5px);
-    transition: 0.4s;
+    transform: translateY(-10px);
+    transition: 0.3s ease-in-out;
 }
 
 header {
