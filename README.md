@@ -96,7 +96,7 @@ Este projeto foi inspirado no universo dos jogos Super Mario Bros da Nintendo, c
 
 **Desenvolvido com 🍄 por [**José Alberto**]**
 - GitHub: [josealbertodeev](https://github.com/josealbertodeev)
-- LinkedIn: [José Alberto B Farias](https://www.linkedin.com/in/joséalberto)
+- LinkedIn: [José Alberto B Farias](https://www.linkedin.com/in/josealbertofarias/)
 
 Acesse o site do projeto 👉 [aqui](https://projeto-site-mario-nine.vercel.app)
 
